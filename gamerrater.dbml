@@ -1,0 +1,54 @@
+Table Users {
+    id int pk
+    password varchar
+    last_login timestamp
+    is_superuser bool
+    username varchar
+    first_name varchar
+    last_name varchar
+    email varchar
+    is_staff bool
+    is_active bool
+    date_joined date
+}
+Table Auth_tokens {
+    key varchar pk
+    created timestamp
+    user_id int [ref: - "Users"."id"]
+}
+Table Games {
+    id int pk
+    title varchar
+    description varchar
+    designer varchar
+    year_released int
+    number_of_players int
+    est_time float
+    age_recommendation int
+}
+Table Game_Categories {
+    id int pk
+    game_id int [ref: > "Games"."id"]
+    category_id int [ref: > "Categories"."id"]
+}
+Table Categories {
+    id int pk
+    name varchar
+}
+Table Game_Pictures {
+    id int pk
+    game_id int [ref: > "Games"."id"]
+    user_id int [ref: > "Users"."id"]
+    image_url varchar
+}
+Table Game_Reviews {
+    id int pk
+    game_id int [ref: > "Games"."id"]
+    user_id int [ref: > "Users"."id"]
+}
+Table Game_Rating {
+    id int pk
+    game_id int [ref: > "Games"."id"]
+    user_id int [ref: > "Users"."id"]
+    rating int
+}
