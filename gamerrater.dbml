@@ -45,6 +45,7 @@ Table Game_Reviews {
     id int pk
     game_id int [ref: > "Games"."id"]
     user_id int [ref: > "Users"."id"]
+    content varchar
 }
 Table Game_Rating {
     id int pk
