@@ -3,6 +3,8 @@ from django.contrib.auth.models import User
 
 
 class GameRating(models.Model):
-    game = models.ForeignKey("Games", on_delete=models.CASCADE, related_name="game")
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="user")
+    game = models.ForeignKey("Game", on_delete=models.CASCADE, related_name="rating")
+    user = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="user_ratings"
+    )
     rating = models.IntegerField()

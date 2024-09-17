@@ -1,0 +1,137 @@
+[
+  {
+    "model": "raterapi.GameReview",
+    "pk": 1,
+    "fields": {
+      "game": 1,
+      "user": 1,
+      "content": "Settlers of Catan is a classic for a reason. The game mechanics are well-balanced, and every game feels different. It's a great introduction to strategy board games."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 2,
+    "fields": {
+      "game": 2,
+      "user": 2,
+      "content": "Ticket to Ride is easy to learn but offers depth in strategy. The tension builds as you try to complete your routes before others block you. A must-have for any game collection."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 3,
+    "fields": {
+      "game": 3,
+      "user": 3,
+      "content": "Pandemic is an excellent cooperative game. It's challenging and requires good teamwork to win. The different roles add variety and replayability."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 4,
+    "fields": {
+      "game": 4,
+      "user": 1,
+      "content": "7 Wonders is a brilliant game of civilization building. The simultaneous play keeps everyone engaged, and the various strategies make each game unique."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 5,
+    "fields": {
+      "game": 5,
+      "user": 2,
+      "content": "Carcassonne is a relaxing yet strategic tile-laying game. It's satisfying to see the landscape grow as you play. Great for both casual and serious gamers."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 6,
+    "fields": {
+      "game": 6,
+      "user": 3,
+      "content": "Dominion revolutionized deck-building games. It's endlessly replayable with its many expansions, and each game feels like a new puzzle to solve."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 7,
+    "fields": {
+      "game": 7,
+      "user": 1,
+      "content": "Codenames is the perfect party game. It's easy to explain, fun for large groups, and always leads to laughs and 'aha!' moments."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 8,
+    "fields": {
+      "game": 8,
+      "user": 2,
+      "content": "Scythe is a masterpiece of game design. The blend of resource management, area control, and combat is perfectly balanced. The artwork is stunning too."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 9,
+    "fields": {
+      "game": 9,
+      "user": 3,
+      "content": "Azul is a beautiful abstract game. The tile-laying mechanism is simple yet offers deep strategy. It's as much fun to play as it is to look at."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 10,
+    "fields": {
+      "game": 10,
+      "user": 1,
+      "content": "Terraforming Mars is an epic game of space colonization. The card-driven gameplay offers countless strategies, and watching Mars transform is very satisfying."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 11,
+    "fields": {
+      "game": 11,
+      "user": 2,
+      "content": "Splendor is an elegant engine-building game. The gameplay is smooth, and the chip components are high quality. It's a great game for both newcomers and experienced players."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 12,
+    "fields": {
+      "game": 12,
+      "user": 3,
+      "content": "King of Tokyo is a blast to play. The dice-rolling mechanics combined with the monster theme create a fun, lighthearted experience. Great for family game nights."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 13,
+    "fields": {
+      "game": 13,
+      "user": 1,
+      "content": "Betrayal at House on the Hill offers a unique experience every time. The transition from cooperative to competitive gameplay is thrilling, and the variety of scenarios keeps it fresh."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 14,
+    "fields": {
+      "game": 14,
+      "user": 2,
+      "content": "Small World is a fantastic area control game. The combination of different races and special powers ensures no two games are alike. The art style is charming too."
+    }
+  },
+  {
+    "model": "raterapi.GameReview",
+    "pk": 15,
+    "fields": {
+      "game": 15,
+      "user": 3,
+      "content": "Agricola is a deep and rewarding worker placement game. It can be challenging to feed your family and build a successful farm, but that's what makes it so satisfying when you do well."
+    }
+  }
+]

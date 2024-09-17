@@ -11,5 +11,5 @@ class Game(models.Model):
     est_time = models.FloatField()
     age_recommendation = models.IntegerField()
     categories = models.ManyToManyField(
-        "Category", through="Game_Categories", related_name="games"
+        "Category", through="GameCategory", related_name="games"
     )

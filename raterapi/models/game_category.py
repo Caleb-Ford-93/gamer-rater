@@ -1,8 +1,8 @@
 from django.db import models
 
 
-class Game_Categories(models.Model):
-    game = models.ForeignKey("Games", on_delete=models.CASCADE, related_name="games")
+class GameCategory(models.Model):
+    game = models.ForeignKey("Game", on_delete=models.CASCADE, related_name="category")
     category = models.ForeignKey(
-        "Categories", on_delete=models.CASCADE, related_name="categories"
+        "Category", on_delete=models.CASCADE, related_name="categories"
     )

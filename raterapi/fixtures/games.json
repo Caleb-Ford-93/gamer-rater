@@ -1,0 +1,197 @@
+[
+  {
+    "model": "raterapi.game",
+    "pk": 1,
+    "fields": {
+      "title": "Settlers of Catan",
+      "description": "In this classic strategy game, players collect resources and use them to build roads, settlements, and cities on their way to victory.",
+      "designer": "Klaus Teuber",
+      "year_released": 1995,
+      "number_of_players": 4,
+      "est_time": 1.5,
+      "age_recommendation": 10
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 2,
+    "fields": {
+      "title": "Ticket to Ride",
+      "description": "Players collect train cards to build railway routes connecting cities across a map of the United States.",
+      "designer": "Alan R. Moon",
+      "year_released": 2004,
+      "number_of_players": 5,
+      "est_time": 1.0,
+      "age_recommendation": 8
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 3,
+    "fields": {
+      "title": "Pandemic",
+      "description": "In this cooperative game, players work as a team to treat infections around the world while gathering resources for cures.",
+      "designer": "Matt Leacock",
+      "year_released": 2008,
+      "number_of_players": 4,
+      "est_time": 0.75,
+      "age_recommendation": 8
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 4,
+    "fields": {
+      "title": "7 Wonders",
+      "description": "Players lead an ancient civilization and build its architectural wonders. It's a card drafting game that requires careful planning and strategy.",
+      "designer": "Antoine Bauza",
+      "year_released": 2010,
+      "number_of_players": 7,
+      "est_time": 0.5,
+      "age_recommendation": 10
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 5,
+    "fields": {
+      "title": "Carcassonne",
+      "description": "Players place tiles to build a medieval landscape and score points by completing features like cities, roads, and monasteries.",
+      "designer": "Klaus-Jürgen Wrede",
+      "year_released": 2000,
+      "number_of_players": 5,
+      "est_time": 0.75,
+      "age_recommendation": 7
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 6,
+    "fields": {
+      "title": "Dominion",
+      "description": "A deck-building game where players use action and treasure cards to accumulate victory points.",
+      "designer": "Donald X. Vaccarino",
+      "year_released": 2008,
+      "number_of_players": 4,
+      "est_time": 0.5,
+      "age_recommendation": 13
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 7,
+    "fields": {
+      "title": "Codenames",
+      "description": "A social word game where two teams compete to identify their agents through one-word clues.",
+      "designer": "Vlaada Chvátil",
+      "year_released": 2015,
+      "number_of_players": 8,
+      "est_time": 0.25,
+      "age_recommendation": 14
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 8,
+    "fields": {
+      "title": "Scythe",
+      "description": "An engine-building game set in an alternate-history 1920s period, featuring resource gathering and area control.",
+      "designer": "Jamey Stegmaier",
+      "year_released": 2016,
+      "number_of_players": 5,
+      "est_time": 2.0,
+      "age_recommendation": 14
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 9,
+    "fields": {
+      "title": "Azul",
+      "description": "Players compete to create the most beautiful mosaic on their player board using colorful tiles.",
+      "designer": "Michael Kiesling",
+      "year_released": 2017,
+      "number_of_players": 4,
+      "est_time": 0.75,
+      "age_recommendation": 8
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 10,
+    "fields": {
+      "title": "Terraforming Mars",
+      "description": "Players take on the role of corporations working to make Mars habitable through various projects and resource management.",
+      "designer": "Jacob Fryxelius",
+      "year_released": 2016,
+      "number_of_players": 5,
+      "est_time": 2.0,
+      "age_recommendation": 12
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 11,
+    "fields": {
+      "title": "Splendor",
+      "description": "A Renaissance-themed game where players are merchants trying to acquire gem mines, transportation, and shops to gain prestige.",
+      "designer": "Marc André",
+      "year_released": 2014,
+      "number_of_players": 4,
+      "est_time": 0.5,
+      "age_recommendation": 10
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 12,
+    "fields": {
+      "title": "King of Tokyo",
+      "description": "Players control monsters vying to become the King of Tokyo in this dice-rolling battle game.",
+      "designer": "Richard Garfield",
+      "year_released": 2011,
+      "number_of_players": 6,
+      "est_time": 0.5,
+      "age_recommendation": 8
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 13,
+    "fields": {
+      "title": "Betrayal at House on the Hill",
+      "description": "Players explore a haunted house, triggering events that lead to one player becoming a traitor in this cooperative turned competitive game.",
+      "designer": "Bruce Glassco",
+      "year_released": 2004,
+      "number_of_players": 6,
+      "est_time": 1.0,
+      "age_recommendation": 12
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 14,
+    "fields": {
+      "title": "Small World",
+      "description": "A fantasy-themed game of conquest where players control various races with unique abilities, vying for control of a world that's too small.",
+      "designer": "Philippe Keyaerts",
+      "year_released": 2009,
+      "number_of_players": 5,
+      "est_time": 1.25,
+      "age_recommendation": 8
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 15,
+    "fields": {
+      "title": "Agricola",
+      "description": "A worker-placement game where players are farmers in 17th century Europe, trying to build the most successful farm.",
+      "designer": "Uwe Rosenberg",
+      "year_released": 2007,
+      "number_of_players": 5,
+      "est_time": 2.0,
+      "age_recommendation": 12
+    }
+  }
+]

@@ -2,8 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-class Game_Picture(models.Model):
-    game = models.ForeignKey("Games", on_delete=models.CASCADE, related_name="pictures")
+class GamePicture(models.Model):
+    game = models.ForeignKey("Game", on_delete=models.CASCADE, related_name="picture")
     user = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="user_pictures"
     )
